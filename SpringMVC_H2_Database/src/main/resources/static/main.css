@@ -1,0 +1,18 @@
+table {
+	border:1px solid black;
+	width:100%;
+}
+
+table > th {
+	font-size:12px;
+	font-weight:700;
+	color:Blue;
+	border:1px solid gray;
+	text-align:center;
+}
+
+table > td {
+	font-size:10px;
+	color:black;
+	text-align:center;
+}

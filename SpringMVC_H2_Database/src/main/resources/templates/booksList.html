@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head> 
+    <title>Getting Started: Serving Web Content</title> 
+    <link rel="stylesheet" th:href="@{/main.css}"></link>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+   This is the second page
+   
+   Books found for the author is : 
+   
+   <table>
+   	<tr><th>Id</th><th>Reader</th><th>ISBN</th><th>Reader</th><th>Description</th></tr>
+   <tr th:each="book : ${books}">
+   		<td><span th:text="${book.id}"></span></td>
+   		<td><span th:text="${book.reader}"></span></td>
+   		<td><span th:text="${book.ISBN}"></span></td>
+   		<td><span th:text="${book.name}"></span></td>
+   		<td><span th:text="${book.description}"></span></td>
+   </tr>
+   </table>
+</body>
+</html>
