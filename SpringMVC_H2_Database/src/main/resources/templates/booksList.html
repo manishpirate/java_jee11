@@ -20,7 +20,7 @@
    		<td><span th:text="${book.id}"></span></td>
    		<td><span th:text="${book.reader}"></span></td>
    		<td><span th:text="${book.ISBN}"></span></td>
-   		<td><span th:text="${book.name}"></span></td>
+   		<td><a th:href="'http://amazon.com/gp/product/' + '/tag' + ${amazonId}" th:text="${book.name}"></a></td>
    		<td><span th:text="${book.description}"></span></td>
    </tr>
    </table>

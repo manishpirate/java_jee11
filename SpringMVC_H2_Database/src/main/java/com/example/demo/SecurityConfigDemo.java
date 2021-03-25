@@ -3,6 +3,7 @@ package com.example.demo;
 
 import java.util.List;
 
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
@@ -16,11 +17,15 @@ import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 
 import com.example.demo.dao.Reader;
 import com.example.demo.dao.ReaderRepository;
+import org.slf4j.Logger;
+
+
 
 @Configuration
 @EnableWebSecurity
 public class SecurityConfigDemo extends WebSecurityConfigurerAdapter {
 
+	
 	@Autowired
 	ReaderRepository readerRepository;
 	

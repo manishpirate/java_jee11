@@ -1,0 +1,31 @@
+[INFO ] 2021-03-23 16:07:24.076 [restartedMain] SpringMvcH2DatabaseApplication - Starting SpringMvcH2DatabaseApplication using Java 11.0.10 on manishs-Air with PID 3999 (/Users/manishsharma/code/Repo/java_jee11/SpringMVC_H2_Database/target/classes started by manishsharma in /Users/manishsharma/code/Repo/java_jee11/SpringMVC_H2_Database)
+[DEBUG] 2021-03-23 16:07:24.077 [restartedMain] SpringMvcH2DatabaseApplication - Running with Spring Boot v2.4.3, Spring v5.3.4
+[INFO ] 2021-03-23 16:07:24.077 [restartedMain] SpringMvcH2DatabaseApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-03-23 16:07:25.115 [restartedMain] SpringMvcH2DatabaseApplication - Started SpringMvcH2DatabaseApplication in 1.153 seconds (JVM running for 87.409)
+[INFO ] 2021-03-23 16:11:04.246 [main] SecurityConfigDemo - This is first log comment
+[INFO ] 2021-03-23 16:11:04.398 [restartedMain] SecurityConfigDemo - This is first log comment
+[INFO ] 2021-03-23 16:11:04.835 [restartedMain] SpringMvcH2DatabaseApplication - Starting SpringMvcH2DatabaseApplication using Java 11.0.10 on manishs-Air with PID 4039 (/Users/manishsharma/code/Repo/java_jee11/SpringMVC_H2_Database/target/classes started by manishsharma in /Users/manishsharma/code/Repo/java_jee11/SpringMVC_H2_Database)
+[DEBUG] 2021-03-23 16:11:04.838 [restartedMain] SpringMvcH2DatabaseApplication - Running with Spring Boot v2.4.3, Spring v5.3.4
+[INFO ] 2021-03-23 16:11:04.849 [restartedMain] SpringMvcH2DatabaseApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-03-23 16:11:09.452 [restartedMain] SpringMvcH2DatabaseApplication - Started SpringMvcH2DatabaseApplication in 5.044 seconds (JVM running for 6.274)
+[INFO ] 2021-03-23 16:12:41.935 [restartedMain] SecurityConfigDemo - This is first log comment
+[INFO ] 2021-03-23 16:12:42.072 [restartedMain] SpringMvcH2DatabaseApplication - Starting SpringMvcH2DatabaseApplication using Java 11.0.10 on manishs-Air with PID 4039 (/Users/manishsharma/code/Repo/java_jee11/SpringMVC_H2_Database/target/classes started by manishsharma in /Users/manishsharma/code/Repo/java_jee11/SpringMVC_H2_Database)
+[DEBUG] 2021-03-23 16:12:42.073 [restartedMain] SpringMvcH2DatabaseApplication - Running with Spring Boot v2.4.3, Spring v5.3.4
+[INFO ] 2021-03-23 16:12:42.073 [restartedMain] SpringMvcH2DatabaseApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-03-23 16:12:43.068 [restartedMain] SpringMvcH2DatabaseApplication - Started SpringMvcH2DatabaseApplication in 1.107 seconds (JVM running for 99.894)
+[INFO ] 2021-03-23 16:13:54.723 [restartedMain] SecurityConfigDemo - This is first log comment
+[INFO ] 2021-03-23 16:13:54.908 [restartedMain] SpringMvcH2DatabaseApplication - Starting SpringMvcH2DatabaseApplication using Java 11.0.10 on manishs-Air with PID 4039 (/Users/manishsharma/code/Repo/java_jee11/SpringMVC_H2_Database/target/classes started by manishsharma in /Users/manishsharma/code/Repo/java_jee11/SpringMVC_H2_Database)
+[DEBUG] 2021-03-23 16:13:54.914 [restartedMain] SpringMvcH2DatabaseApplication - Running with Spring Boot v2.4.3, Spring v5.3.4
+[INFO ] 2021-03-23 16:13:54.914 [restartedMain] SpringMvcH2DatabaseApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-03-23 16:13:55.822 [restartedMain] SpringMvcH2DatabaseApplication - Started SpringMvcH2DatabaseApplication in 1.073 seconds (JVM running for 172.651)
+[INFO ] 2021-03-23 16:15:04.331 [restartedMain] SecurityConfigDemo - This is first log comment
+[INFO ] 2021-03-23 16:15:04.455 [restartedMain] SpringMvcH2DatabaseApplication - Starting SpringMvcH2DatabaseApplication using Java 11.0.10 on manishs-Air with PID 4039 (/Users/manishsharma/code/Repo/java_jee11/SpringMVC_H2_Database/target/classes started by manishsharma in /Users/manishsharma/code/Repo/java_jee11/SpringMVC_H2_Database)
+[DEBUG] 2021-03-23 16:15:04.457 [restartedMain] SpringMvcH2DatabaseApplication - Running with Spring Boot v2.4.3, Spring v5.3.4
+[INFO ] 2021-03-23 16:15:04.457 [restartedMain] SpringMvcH2DatabaseApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-03-23 16:15:05.333 [restartedMain] SpringMvcH2DatabaseApplication - Started SpringMvcH2DatabaseApplication in 0.977 seconds (JVM running for 242.164)
+[INFO ] 2021-03-23 16:15:09.685 [main] SecurityConfigDemo - This is first log comment
+[INFO ] 2021-03-23 16:15:09.827 [restartedMain] SecurityConfigDemo - This is first log comment
+[INFO ] 2021-03-23 16:15:10.322 [restartedMain] SpringMvcH2DatabaseApplication - Starting SpringMvcH2DatabaseApplication using Java 11.0.10 on manishs-Air with PID 4071 (/Users/manishsharma/code/Repo/java_jee11/SpringMVC_H2_Database/target/classes started by manishsharma in /Users/manishsharma/code/Repo/java_jee11/SpringMVC_H2_Database)
+[DEBUG] 2021-03-23 16:15:10.327 [restartedMain] SpringMvcH2DatabaseApplication - Running with Spring Boot v2.4.3, Spring v5.3.4
+[INFO ] 2021-03-23 16:15:10.329 [restartedMain] SpringMvcH2DatabaseApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-03-23 16:15:14.644 [restartedMain] SpringMvcH2DatabaseApplication - Started SpringMvcH2DatabaseApplication in 4.803 seconds (JVM running for 5.91)
