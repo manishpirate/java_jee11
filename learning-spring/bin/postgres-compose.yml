@@ -1,0 +1,10 @@
+postgres :
+  image : postgres
+  ports :
+    - '5432:5432'
+  environment :
+    POSTGRES_USER : 'user'
+    POSTGRES_PASSWORD : 'pass'
+    POSTGRES_DB : 'dev'
+  volumes :
+    - /bin:/docker-entrypoint-initdb.d/
