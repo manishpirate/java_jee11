@@ -16,17 +16,4 @@ public class LearningSpringApplication {
 		SpringApplication.run(LearningSpringApplication.class, args);
 	}
 
-	@RestController
-	@RequestMapping("/rooms")
-	public class RoomController {
-
-		@Autowired
-		public RoomRepository roomRepository;
-
-		@GetMapping
-		public Iterable<Room> getRooms(){
-			return this.roomRepository.findAll();
-		}
-	}
-
 }
