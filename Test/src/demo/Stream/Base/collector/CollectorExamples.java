@@ -1,9 +1,8 @@
 package demo.Stream.Base.collector;
 
-import java.util.ArrayList;
-import java.util.DoubleSummaryStatistics;
-import java.util.List;
+import java.util.*;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class CollectorExamples {
 
@@ -21,5 +20,26 @@ public class CollectorExamples {
 
        String resultVal  = listString.stream().collect(Collectors.mapping(s -> s + " bye ", Collectors.joining(", ")));
         System.out.println(resultVal);
+
+       Map<Integer,Integer> result = listString.stream().collect(Collectors.groupingBy(s -> s.length(), Collectors.summingInt(s -> s.length())));
+      for(Map.Entry<Integer, Integer> entry : result.entrySet()){
+           System.out.println("---------------------");
+           System.out.println(entry.getKey());
+           System.out.println(entry.getValue());
+           System.out.println("---------------------");
+       }
+
+        Map<Boolean, List<String>> result1 = listString.stream().collect(
+                Collectors.partitioningBy(s -> s.length()>4));
+      
+        Long s = listString.stream().collect(Collectors.counting());
+        System.out.println("s = " + s);
+
+        for(Map.Entry<Boolean, List<String>> entry : result1.entrySet()){
+            System.out.println("---------------------");
+            System.out.println(entry.getKey());
+            System.out.println(entry.getValue());
+            System.out.println("---------------------");
+        }
     }
 }

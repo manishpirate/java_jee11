@@ -1,5 +1,6 @@
 package demo.ExecutorService;
 
+import java.util.concurrent.CyclicBarrier;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
@@ -27,7 +28,7 @@ public class ExecutorMain {
             );
         }
         executorService.shutdown();//stop accepting any new thread
-        //we will wait for threads to complete
+       /* //we will wait for threads to complete
         try {
             if(!executorService.awaitTermination(30L, TimeUnit.SECONDS)){
                 executorService.shutdownNow();
@@ -36,7 +37,8 @@ public class ExecutorMain {
             executorService.shutdownNow();
             Thread.currentThread().interrupt();
             e.printStackTrace();
-        }
+        }*/
+
     }
 
 

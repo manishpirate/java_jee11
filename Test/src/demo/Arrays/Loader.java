@@ -31,11 +31,17 @@ public class Loader {
             System.out.println("value = " + value);
         }
 
-        namesInt2 = Arrays.copyOfRange(namesInt2, 7, 35);
+       /* namesInt2 = Arrays.copyOfRange(namesInt2, 7, 35);
         System.out.println("Length after copy of Range Method " + namesInt2.length);
         for(int value : namesInt2){
             System.out.println("value = " + value);
-        }
+        }*/
+        //Checking array.mistach
 
+        String arr1[] ={"London","Pairs","New York"};
+        String arr2[] = {"London","Pairs","New York","New York"};
+
+        int x = Arrays.mismatch(arr1, arr2);
+        System.out.println(x);
     }
 }
